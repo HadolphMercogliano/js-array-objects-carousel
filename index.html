@@ -41,41 +41,47 @@
 
   <body>
     <main>
-      <div class="container mt-5">
-        <div class="my-carousel position-relative">
-          <img src="./img/01.webp" alt="" />
-          <div class="my-text-area me-3">
-            <h2 class="text-end">Marvel's Spiderman Miles Morale</h2>
-            <p class="text-end">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              autem eligendi sapiente!
-            </p>
+      <div class="my-container d-flex mt-5">
+        <div class="my-carousel">
+          <div class="slide">
+            <img src="./img/01.webp" alt="" />
+            <div class="my-text-area pe-3">
+              <h2 class="text-end">Marvel's Spiderman Miles Morale</h2>
+              <p class="text-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                autem eligendi sapiente!
+              </p>
+            </div>
+            <button class="carousel-control-prev" type="button">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button">
+              <span class="carousel-control-next-icon"></span>
+            </button>
           </div>
-          <button class="carousel-control-prev" type="button">
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button class="carousel-control-next" type="button">
-            <span class="carousel-control-next-icon"></span>
-          </button>
         </div>
 
-        <div class="my-thumbnail row-cols-5 d-flex mt-3">
-          <div class="col px-1">
+        <div class="my-thumbnail">
+          <div class="col thumb">
             <img src="./img/01.webp" alt="" />
           </div>
-          <div class="col px-1">
+          <div class="col thumb">
             <img src="./img/02.webp" alt="" />
           </div>
-          <div class="col px-1">
+          <div class="col thumb">
             <img src="./img/03.webp" alt="" />
           </div>
-          <div class="col px-1">
+          <div class="col thumb">
             <img src="./img/04.webp" alt="" />
           </div>
-          <div class="col px-1">
+          <div class="col thumb">
             <img src="./img/05.webp" alt="" />
           </div>
         </div>
+      </div>
+      <div class="button-section d-flex justify-content-center mt-3">
+        <button class="btn btn-primary mx-2">invert</button>
+        <button class="btn btn-primary mx-2">stop</button>
       </div>
     </main>
   </body>
